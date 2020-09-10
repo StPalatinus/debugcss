@@ -1,0 +1,15 @@
+﻿/* 
+    Created on : 29 ���. 2020 �., 16:02:37
+    Author     : StPalatinus
+*/
+
+img:not([alt]),
+label:not([for]),
+input[type=submit]:not([value]) {
+  outline:2px solid red;
+}
+
+ul > *:not(li),
+ol > *:not(li),
+dl > *:not(dt):not(dd) {
+  outline:2px solid red;
